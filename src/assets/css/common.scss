@@ -1,0 +1,32 @@
+.fl {
+  display: flex;
+  align-items: center;
+}
+.fl-c-c {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fl-c {
+  display: flex;
+  flex-direction: column;
+}
+* {
+  box-sizing: border-box;
+}
+
+.vhiden {
+  visibility: hidden;
+}
+
+.mcap {
+  width: 100%;
+  height: 20rpx;
+  background: rgba(242, 242, 242, 1);
+}
+
+.txtover {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
